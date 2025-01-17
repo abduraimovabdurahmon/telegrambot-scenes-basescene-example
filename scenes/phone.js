@@ -43,6 +43,7 @@ phone.on("contact", (ctx)=>{
 });
 
 
+// Agar user boshqa narsa yuborsa
 phone.use(ctx=>{
     try {
         ctx.reply("Iltimos telefon raqamingizni pastdagi tugma orqali yuboring.");
@@ -51,4 +52,6 @@ phone.use(ctx=>{
     }
 });
 
+
+// scene ni export qilish
 module.exports = phone;
